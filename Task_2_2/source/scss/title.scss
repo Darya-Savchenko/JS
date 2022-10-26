@@ -1,0 +1,22 @@
+.title__container{
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .mainTitle__name{
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 50px;
+    @include phone{
+      font-size: 35px;
+    }
+
+  }
+  .mainTitle__decor{
+    margin-top: 15px;
+    width: 100px;
+    height: 5px;
+    background-color: $bronze;
+  }
+}

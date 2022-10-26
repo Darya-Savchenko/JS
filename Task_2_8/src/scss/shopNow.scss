@@ -1,0 +1,40 @@
+.shopNow{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/shopNow/shopNow.webp");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  .shopNow__container{
+    background-color: $gray;
+    max-width: 600px;
+    margin: 20px;
+    padding: 15px;
+    .shopNow__title{
+      font-weight: 500;
+      font-size: 50px;
+      @include tablet{
+        font-size: 40px;
+      }
+    }
+    .shopNow__button {
+      background-color: $gray;
+      border: 1px solid white;
+      padding: 10px;
+      color: white;
+      transition: 0.4s;
+      margin: 15px 0;
+      font-size: 18px;
+      &:hover{
+        transition: 0.4s;
+        background-color: white;
+        color: $gray;
+      }
+    }
+  }
+}

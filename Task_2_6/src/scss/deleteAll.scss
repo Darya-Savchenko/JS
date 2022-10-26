@@ -1,0 +1,9 @@
+.button__container{
+  display: flex;
+  justify-content: center;
+  .button__delete-items{
+    color: red;
+    background-color: $background;
+    font-size: 17px;
+  }
+}

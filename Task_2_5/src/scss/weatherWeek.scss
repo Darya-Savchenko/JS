@@ -1,0 +1,13 @@
+.weather__day{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  div{
+    margin: 20px;
+  }
+  .icon{
+    margin: 0;
+  }
+  .temperature{
+    margin: 0;
+  }
+}

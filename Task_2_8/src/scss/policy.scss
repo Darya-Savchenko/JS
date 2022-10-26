@@ -1,0 +1,43 @@
+.policy__title{
+  background-color: $gray;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 50px;
+  @include tablet{
+    font-size: 35px;
+  }
+}
+.policy__main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  .policy__row{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    @include tablet{
+      flex-direction: column;
+      margin: 0;
+    }
+  }
+  .policy__section{
+    width: 50%;
+    text-align: start;
+    padding: 25px;
+    border: 1px solid $fontColor;
+    @include tablet{
+      width: 100%;
+    }
+  }
+  .policy__section__title{
+    font-weight: 500;
+    font-size: 25px;
+  }
+  p{
+    padding-top: 15px;
+    text-align: justify;
+  }
+}

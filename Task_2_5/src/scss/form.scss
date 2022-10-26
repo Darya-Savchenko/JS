@@ -1,0 +1,47 @@
+.form__container{
+  background-color: lighten($background, 6.5%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.form{
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  .searchCity__container{
+    flex-direction: row;
+    align-items: center;
+  }
+  .searchCity{
+    color: $background;
+    background-color: $font;
+    width: 300px;
+    font-size: 16px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid $font;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .button{
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 8px 15px;
+    border: 1px solid $font;
+    border-radius: 5px;
+    background-color: lighten($background, 6.5%);
+    transition-duration: 0.4s;
+    color: $font;
+    &:hover {
+      color: $background;
+      background-color: $font;
+      transition-duration: 0.4s;
+    }
+  }
+  .selected{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}

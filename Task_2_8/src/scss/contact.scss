@@ -1,0 +1,85 @@
+.contact__title{
+  background-color: $gray;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+  font-size: 50px;
+  @include tablet{
+    font-size: 35px;
+  }
+}
+.contact__main {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  @include tablet{
+    flex-direction: column;
+  }
+  .contact__section{
+    border: 1px solid $fontColor;
+    width: 50%;
+    padding: 25px;
+    @include tablet{
+      width: 100%;
+    }
+    .contact__section__title{
+      font-size: 25px;
+      font-weight: 500;
+    }
+    p{
+      margin-top: 10px;
+      text-align: justify;
+    }
+  }
+  .section__form{
+    background-color: $green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    .contact__form{
+      display: flex;
+      flex-direction: column;
+      .contact__form__row{
+        display: flex;
+        flex-direction: row;
+      }
+      .input__container{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+        transition: 0.2s;
+        input{
+          background-color: $green;
+          border: 1px solid white;
+          height: 35px;
+          width: 100%;
+          transition: 0.2s;
+        }
+      }
+      textarea{
+        background-color: $green;
+        border: 1px solid white;
+        height: 55px;
+        transition: 0.2s;
+      }
+      label{
+        margin-top: 10px;
+      }
+      .form__submit{
+        background-color: $green;
+        border: 1px solid white;
+        height: 35px;
+        color: white;
+        transition: 0.2s;
+        &:hover{
+          color: $green;
+          background-color: white;
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+}

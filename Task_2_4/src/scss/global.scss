@@ -1,0 +1,64 @@
+.title{
+  line-height: 1.5;
+  font-size: 25px;
+  color: $green;
+  font-weight: 600;
+  @include laptop {
+    font-size: 23px;
+  }
+  @include tablet {
+    font-size: 21px;
+  }
+  @include phone {
+    font-size: 19px;
+  }
+  @include smallPhone {
+    font-size: 17px;
+  }
+}
+.container{
+  margin-top: 20px;
+  .error {
+    max-width: 400px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: red;
+  }
+  @include phone {
+    margin: 10px;
+  }
+}
+html,
+body {
+  background-color: $turquoise;
+  height: 100%;
+  font-family: Poppins, serif;
+  .wrapper {
+    border-radius: 20px;
+    background-color: $lightgrey;
+    margin: 40px;
+    @include tablet {
+      margin: 35px;
+    }
+    @include phone {
+      margin: 30px;
+    }
+    @include smallPhone {
+      margin: 25px;
+    }
+  }
+}
+.form__combination{
+  display: flex;
+  justify-content: center;
+  @include tablet{
+    flex-direction: column;
+    align-items: center;
+  }
+  input:first-of-type {
+    margin-right: 20px;
+    @include laptop {
+      margin-right: 10px;
+    }
+  }
+}

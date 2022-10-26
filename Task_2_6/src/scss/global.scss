@@ -1,0 +1,16 @@
+html,
+body{
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  background-color: $background;
+  color: $font;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 15px;
+}

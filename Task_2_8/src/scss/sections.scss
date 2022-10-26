@@ -1,0 +1,26 @@
+.sections{
+  display: flex;
+  justify-content: center;
+}
+.sections__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  .sections__button{
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 312px;
+    img{
+      max-width: 50px;
+      margin: 5px;
+    }
+    span{
+      font-size: 25px;
+      padding: 20px;
+    }
+  }
+}

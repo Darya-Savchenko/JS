@@ -1,0 +1,63 @@
+.logIn__title{
+  background-color: $gray;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+  font-size: 50px;
+  @include tablet{
+    font-size: 35px;
+  }
+}
+.logIn__main {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  @include tablet {
+    flex-direction: column;
+  }
+  .logIn__section{
+    border: 1px solid $fontColor;
+    width: 50%;
+    padding: 15px;
+    @include tablet{
+      width: 100%;
+    }
+  }
+  .logIn-main-section{
+    background-color: $green;
+    color: white;
+    .logIn__forgotPassword{
+      background-color: $green;
+      color: white;
+    }
+    .logIn__form{
+      display: flex;
+      flex-direction: column;
+      input{
+        height: 30px;
+        background-color: $green;
+        border: 1px solid white;
+        color: white;
+      }
+      label{
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+.logIn-registration-section__title{
+  font-size: 25px;
+  font-weight: 500;
+}
+.logIn-registration-section__button{
+  padding: 10px 15px;
+  background-color: $green;
+  font-weight: 500;
+  color: white;
+  margin-top: 20px;
+}
+.logIn__forgotPassword{
+  margin-top: 20px;
+}

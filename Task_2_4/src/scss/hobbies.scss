@@ -1,0 +1,18 @@
+.hobbies__container {
+  @extend %smallWidth;
+  @include phone {
+    width: 250px;
+  }
+  @include smallPhone {
+    width: 100%;
+  }
+  .hobbies__election {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .hobbies__checkpoint {
+    @extend %text;
+    padding-right: 10px;
+  }
+}

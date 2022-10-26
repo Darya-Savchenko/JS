@@ -1,0 +1,51 @@
+.footer__main{
+  background-color: $green;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  .footer-main__title{
+    padding: 15px;
+    font-size: 21px;
+  }
+  .footer-main__form__container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    .form__email{
+      background-color: $green;
+      border: 1px solid white;
+      height: 40px;
+      width: 300px;
+      margin-top: 5px;
+      color: white;
+    }
+    .form__submit{
+      background-color: $green;
+      border: 1px solid white;
+      color: white;
+      padding: 10px;
+      max-width: 70px;
+      transition: 0.2s;
+      &:hover{
+        color: $green;
+        background-color: white;
+        transition: 0.2s;
+      }
+    }
+  }
+  .footer-main__column{
+    padding: 15px;
+  }
+  .item-button{
+    background-color: $green;
+    color: white;
+    padding: 0 15px;
+    font-size: 18px;
+  }
+}
+.footer__created{
+  padding: 10px;
+}

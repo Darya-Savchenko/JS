@@ -1,0 +1,41 @@
+%text{
+  line-height: 1.5;
+  font-size: 20px;
+  color: $darkgrey;
+  font-weight: 400;
+  @include tablet {
+    font-size: 18px;
+  }
+  @media (max-width: 479px) {
+    font-size: 16px;
+  }
+}
+%input{
+  border: 1px solid $gainsboro;
+  border-radius: 3px;
+  background-color: $lightgrey;
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+}
+%smallWidth{
+  width: 400px;
+  @include laptop {
+    width: 300px;
+  }
+  @include phone {
+    width: 100%;
+  }
+}
+%bigWidth{
+  width: 825px;
+  @include laptop {
+    width: 625px;
+  }
+  @include tablet {
+    width: 300px;
+  }
+  @include phone {
+    width: 100%;
+  }
+}

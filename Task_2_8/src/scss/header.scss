@@ -1,0 +1,96 @@
+.header__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+  border-bottom: 2px solid $fontColor;
+  .header__label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 10px;
+    background-color: white;
+  }
+  .menu__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    a {
+      color: $fontColor;
+      transition: 0.2s;
+      &:hover {
+        color: $green;
+        transition: 0.2s;
+      }
+    }
+    button {
+      background-color: white;
+      transition: 0.2s;
+      font-size: 18px;
+      color: $fontColor;
+      &:hover {
+        color: $green;
+        transition: 0.2s;
+      }
+    }
+  }
+}
+
+.header__social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+  .social__list {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    .menu__link img {
+      max-width: 30px;
+      @include tablet{
+        max-width: 20px;
+      }
+    }
+    .instagram img{
+      max-width: 45px;
+      @include tablet{
+        max-width: 35px;
+      }
+    }
+  }
+}
+.social__user{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  button{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    transition: 0.2s;
+    font-size: 18px;
+    color: $fontColor;
+    &:hover{
+      transition: 0.2s;
+      color: $green;
+    }
+    img{
+      max-width: 40px;
+      @include tablet{
+        max-width: 30px;
+      }
+    }
+    span{
+      padding-top: 20px;
+      @include tablet{
+        padding-top: 8px;
+      }
+    }
+  }
+}

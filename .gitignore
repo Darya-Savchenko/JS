@@ -1,0 +1,22 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/.idea
+/Task_2_4/node_modules/
+/Task_2_4/package.json
+/Task_2_4/package-lock.json
+/Task_2_4/tsconfig.json
+/Task_2_4/src/scss/.sass-cache/
+/Task_2_5/node_modules/
+/Task_2_5/package.json
+/Task_2_5/package-lock.json
+/Task_2_5/src/scss/.sass-cache/
+/Task_2_6/node_modules/
+/Task_2_6/package.json
+/Task_2_6/package-lock.json
+/Task_2_6/src/scss/.sass-cache/
+/Task_2_7/src/scss/.sass-cache/
+/Task_2_7/node_modules/
+/Task_2_8/node_modules/

@@ -1,0 +1,32 @@
+.header {
+  background-color: $gainsboro;
+  border-bottom: 1px solid $darkgrey;
+  border-radius: 20px 20px 0 0;
+}
+.header__container {
+  border-radius: 10px;
+}
+.header__title {
+  padding: 25px;
+  border-radius: 10px;
+  color: $darkgrey;
+  font-weight: 600;
+  font-size: 45px;
+  text-align: center;
+  @include laptop{
+    padding: 23px;
+    font-size: 42px;
+  }
+  @include tablet {
+    padding: 20px;
+    font-size: 39px;
+  }
+  @include phone {
+    padding: 17px;
+    font-size: 30px;
+  }
+  @include smallPhone {
+    padding: 15px;
+    font-size: 25px;
+  }
+}

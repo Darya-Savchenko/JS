@@ -1,0 +1,60 @@
+.income__container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  @include laptop {
+    padding-left: 20px;
+  }
+  @include tablet {
+    padding-left: 0;
+  }
+  .income__rangeMax {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .income__max {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: $green;
+    font-size: 20px;
+    width: 65px;
+    color: $lightgrey;
+    font-weight: 600;
+    @include tablet {
+      font-size: 17px;
+      width: 60px;
+    }
+    @include phone {
+      padding: 12px;
+      font-size: 16px;
+      width: 55px;
+    }
+  }
+  .income__range {
+    -webkit-appearance: none;
+    border: 1px solid $darkgrey;
+    height: 10px;
+    background: -webkit-linear-gradient(left, $darkgrey 0%, darken($lightgrey, 6.25) 0%);
+    border-radius: 10px;
+    width: 315px;
+    @include laptop {
+      width: 250px;
+    }
+    @include phone {
+      width: 200px;
+    }
+    @include smallPhone {
+      width: 100%;
+    }
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 20px;
+      height: 20px;
+      background-color: $lightgrey;
+      border-radius: 20px;
+      border: 1px solid $darkgrey;
+      cursor: pointer;
+    }
+  }
+}

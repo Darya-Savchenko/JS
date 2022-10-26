@@ -1,0 +1,30 @@
+.buttons__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  .button__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .button{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid $bronze;
+    color: $bronze;
+    background-color: white;
+    transition: 500ms;
+    &:hover{
+      color: white;
+      background-color: $bronze;
+      transition: 500ms;
+    }
+    &:active{
+      box-shadow: 0 2px 8px rgba(24, 23, 23, 0.93);
+    }
+  }
+}

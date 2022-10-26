@@ -1,0 +1,98 @@
+@import "nullStyle";
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+html,
+body{
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  background-color: $darkBackground;
+  color: $darkFont;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  .title{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 15px;
+  }
+  .button__mode{
+    color: $darkFont;
+    position: relative;
+    border: 1px solid $darkFont;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+    background-color: $darkBackground;
+    font-weight: 700;
+    transition-duration: 0.4s;
+    &:hover{
+      transition-duration: 0.4s;
+      background-color: darken($darkBackground, 10%);
+    }
+  }
+}
+.main{
+  background-color: lighten($darkBackground, 3%);
+}
+.form__container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  .searchCountry{
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .searchCountry__button{
+    color: $darkFont;
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: $darkBackground;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    &:hover{
+      transition-duration: 0.4s;
+      background-color: darken($darkBackground, 10%);
+    }
+  }
+  .searchRegion__container select{
+    color: $darkFont;
+    background-color: $darkBackground;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+}
+.countries__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .country__item{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: $darkBackground;
+    color: $darkFont;
+    border-radius: 5px;
+    margin: 15px;
+    font-size: 17px;
+    & span{
+      font-weight: 500;
+    }
+    .country__photo img{
+      max-width: 250px;
+    }
+    .country__name{
+      max-width: 200px;
+      font-weight: 700;
+      padding: 10px;
+    }
+    .country__info{
+      padding: 3px 10px;
+    }
+  }
+}

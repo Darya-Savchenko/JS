@@ -1,0 +1,18 @@
+.gender__container {
+  @extend %smallWidth;
+  margin-right: 20px;
+  @include tablet {
+    margin-right: 0;
+  }
+  .gender__election {
+    display: flex;
+    flex-direction: row;
+  }
+  .gender__female {
+    @extend %text;
+    padding-left: 20px;
+  }
+  .gender__male {
+    @extend %text
+  }
+}
