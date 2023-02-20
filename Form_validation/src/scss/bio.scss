@@ -1,0 +1,8 @@
+.bio__container {
+  margin-bottom: 25px;
+  .bio__content {
+    @extend %bigWidth;
+    @extend %input;
+    height: 100px;
+  }
+}

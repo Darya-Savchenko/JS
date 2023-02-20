@@ -1,0 +1,15 @@
+.picture__container {
+  @extend %smallWidth;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include phone {
+    width: 200px;
+  }
+  @include smallPhone{
+    width: 150px;
+  }
+  .picture__content {
+    @extend %text;
+  }
+}

@@ -1,0 +1,74 @@
+.invisible{
+  display: none !important;
+}
+.shoppingCard{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  width: 30%;
+  box-shadow: -23px 0px 27px 0px rgba(50, 50, 50, 0.40);
+  @include laptop{
+    width: 50%;
+  }
+  @include tablet{
+    width: 100%;
+  }
+  .shoppingCard__container{
+    background-color: white;
+  }
+  .shoppingCard__title{
+    padding: 10px;
+    text-align: center;
+    background-color: $gray;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .shoppingCard__items{
+    background-color: white;
+  }
+  .shoppingCard__item{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid $fontColor;
+    margin-bottom: 30px;
+    .shoppingCard__item__info{
+      padding: 10px;
+    }
+    .shoppingCard__item__img img{
+      max-width: 200px;
+    }
+    .shoppingCard__item__title{
+      font-weight: 500;
+    }
+    .shoppingCard__item__remove{
+      color: white;
+      background-color: $green;
+      padding: 10px 15px;
+    }
+  }
+  .shoppingCard__totalCount{
+    padding-left: 7px;
+    font-size: 21px;
+    font-weight: 500;
+  }
+  .shoppingCard__bottom{
+    background-color: white;
+  }
+  .shoppingCard__button{
+    font-size: 18px;
+    background-color: $green;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    transition: 0.2s;
+    &:hover{
+      color: $green;
+      background-color: white;
+      transition: 0.2s;
+    }
+  }
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Task_1_3</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="header__container">
+            <div class="header__title">Create Account</div>
+        </div>
+    </header>
+    <main class="page">
+        <div class="form__container">
+            <form action="#" method="post" enctype="multipart/form-data" class="form" novalidate>
+                <div class="form__inputs">
+                    <div class="form__combination">
+                        <div class="firstName__container container">
+                            <label for="firstName" class="firstName__title title">First name*</label>
+                            <input tabindex="1" id="firstName" type="text" name="firstName" class="form__input"
+                                   placeholder="  Enter your first name"
+                                   value="" required>
+                            <div class="firstName__error error"></div>
+                        </div>
+                        <div class="lastName__container container">
+                            <label for="lastName" class="lastName__title title">Last name</label>
+                            <input tabindex="2" id="lastName" type="text" name="lastName" class="form__input"
+                                   placeholder="  Enter your last name"
+                                   value="">
+                        </div>
+                    </div>
+                    <div class="form__combination">
+                        <div class="email__container container">
+                            <label for="email" class="email__title title">Email*</label>
+                            <input tabindex="3" id="email" type="email" name="email" class="email__input"
+                                   placeholder="  Enter your email" value=""
+                                   required>
+                            <div class="email__error error" aria-live="polite"></div>
+                        </div>
+                    </div>
+                    <div class="form__combination">
+                        <div class="password__container container">
+                            <label for="password" class="password__title title">Password*</label>
+                            <input tabindex="4" id="password" type="password" name="password" class="form__input"
+                                   placeholder="  Enter your password"
+                                   value="" required>
+                            <div class="password__error error" aria-live="polite"></div>
+                        </div>
+                        <div class="passwordConfirm__container container">
+                            <label for="passwordConfirm" class="passwordConfirm__title title">Confirm Password*</label>
+                            <input tabindex="5" id="passwordConfirm" type="password" name="passwordConfirm"
+                                   class="form__input"
+                                   placeholder="  Enter your password again" value="" required>
+                            <div class="passwordConfirm__error error" aria-live="polite"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__combination">
+                    <div class="input__gender">
+                        <div class="gender__container container">
+                            <div class="gender__title title">Gender:</div>
+                            <div class="gender__election">
+                                <div class="gender__male">
+                                    <input tabindex="6" id="male" type="radio" name="gender" value="male">
+                                    <label for="male">Male</label>
+                                </div>
+                                <div class="gender__female">
+                                    <input tabindex="7" id="female" type="radio" name="gender" value="female">
+                                    <label for="female">Female</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input__hobbies">
+                        <div class="hobbies__container container">
+                            <p class="hobbies__title title">Hobbies</p>
+                            <div class="hobbies__election">
+                                <div class="hobbies__checkpoint">
+                                    <input tabindex="8" id="music" type="checkbox" name="music" value="yes">
+                                    <label for="music">Music</label>
+                                </div>
+                                <div class="hobbies__checkpoint">
+                                    <input tabindex="8" id="sports" type="checkbox" name="sports" value="yes">
+                                    <label for="sports">Sports</label>
+                                </div>
+                                <div class="hobbies__checkpoint">
+                                    <input tabindex="8" id="travel" type="checkbox" name="travel" value="yes">
+                                    <label for="travel">Travel</label>
+                                </div>
+                                <div class="hobbies__checkpoint">
+                                    <input tabindex="8" id="movies" type="checkbox" name="movies" value="yes">
+                                    <label for="movies">Movies</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__combination">
+                    <div class="source__container container">
+                        <label for="source__select" class="source__title title">Source of Income</label>
+                        <select tabindex="9" name="source" id="source__select" class="source__select">
+                            <option value="employed" class="source__employed" selected>Employed</option>
+                            <option value="ownBusiness" class="source__ownBusiness">Own Business</option>
+                            <option value="none" class="source__none">None</option>
+                        </select>
+                    </div>
+                    <div class="income__container container">
+                        <label for="income" class="income__title title">Income</label>
+                        <div class="income__rangeMax">
+                            <input tabindex="10" type="range" id="income" min="0" max="20000" step="100" value="0"
+                                   name="income" class="income__range">
+                            <div class="income__max">20k</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__combination">
+                    <div class="picture__container container">
+                        <label for="file" class="picture__title title">Upload Profile Picture</label>
+                        <input tabindex="11" id="file" type="file" class="picture__content" name="picture">
+                    </div>
+                    <div class="age__container container">
+                        <label for="age" class="age__title title">Age</label>
+                        <input tabindex="12" id="age" type="number" name="age" class="form__input" value="16"
+                               placeholder="  Enter your age">
+                        <div class="passwordConfirm__error error" aria-live="polite"></div>
+                    </div>
+                </div>
+                <div class="form__combination">
+                    <div class="bio__container container">
+                        <label for="bio" class="bio__title title">Bio</label>
+                        <textarea tabindex="15" id="bio" name="bio" class="bio__content"></textarea>
+                    </div>
+                </div>
+                <div class="bottom__container">
+                    <button class="bottom" type="submit">Create</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</div>
+<script type="module" src="src/ts/script.ts"></script>
+</body>
+</html>

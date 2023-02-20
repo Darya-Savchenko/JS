@@ -1,0 +1,33 @@
+.aboutUs__header{
+  background-color: $gray;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  .aboutUs__header__title{
+    font-size: 50px;
+    @include tablet{
+      font-size: 35px;
+    }
+  }
+  .aboutUs__header__text{
+    font-size: 21px;
+  }
+}
+.aboutUs__main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  p{
+    text-align: justify;
+    padding: 30px;
+    max-width: 500px;
+  }
+  img{
+    width: 100%;
+    @include tablet{
+      display: none;
+    }
+  }
+}

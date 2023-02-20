@@ -1,0 +1,11 @@
+.weather__day {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%; }
+  .weather__day div {
+    margin: 20px; }
+  .weather__day .icon {
+    margin: 0; }
+  .weather__day .temperature {
+    margin: 0; }
+
+/*# sourceMappingURL=weatherWeek.css.map */

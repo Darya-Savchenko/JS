@@ -1,0 +1,29 @@
+.items__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  & div{
+    border-bottom: $font;
+  }
+  .item{
+    display: flex;
+    flex-direction: row;
+    .item__input{
+      background-color: $background;
+      border-bottom: 1px solid $font;
+      margin-bottom: 7px;
+    }
+    .item__buttons{
+      display: flex;
+      flex-direction: row;
+      & button{
+        background-color: $background;
+        margin-left: 5px;
+        & img{
+          width: 20px;
+        }
+      }
+    }
+  }
+}

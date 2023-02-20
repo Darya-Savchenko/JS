@@ -1,0 +1,30 @@
+.createAccount__container{
+  margin: 20px;
+  .createAccount__title{
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .createAccount__section{
+    display: flex;
+    flex-direction: column;
+    .createAccount__section__title{
+      margin-top: 25px;
+      font-weight: 700;
+      font-size: 21px;
+    }
+    .createAccount__label{
+      margin-top: 10px;
+    }
+    .createAccount__input{
+      border: 1px solid $fontColor;
+      max-width: 400px;
+      height: 30px;
+    }
+  }
+  .createAccount__submit{
+    background-color: $green;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+  }
+}

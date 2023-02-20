@@ -1,0 +1,47 @@
+.section__header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section__container{
+  display: flex;
+  flex-direction: column;
+  @include laptop{
+    flex-direction: column;
+  }
+}
+.section__header{
+  background-color: $gray;
+  text-align: center;
+  color: white;
+  .section__title{
+    padding: 15px;
+    font-size: 50px;
+  }
+  .section__text{
+    padding: 15px;
+    font-size: 21px;
+  }
+}
+.items__container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item{
+  margin: 25px;
+  text-align: center;
+  .item__title{
+    font-size: 25px;
+  }
+  img{
+    max-width: 350px;
+    @include phone{
+      width: 100%;
+    }
+  }
+  &:hover{
+    cursor: pointer;
+  }
+}

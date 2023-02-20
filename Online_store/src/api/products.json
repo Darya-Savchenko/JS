@@ -1,0 +1,260 @@
+[
+  {
+    "title": "EKTORP",
+    "price": 85.00,
+    "sku": "001",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/furniture/EKTORP1.webp",
+      "src2": "src/img/products/furniture/EKTORP2.webp"
+    },
+    "category": "furniture",
+    "sale": true,
+    "new": false,
+    "bestsellers": false
+  },
+  {
+    "title": "STÖTTA",
+    "price": 25.00,
+    "sku": "002",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/lighting/STÖTTA1.webp",
+      "src2": "src/img/products/lighting/STÖTTA2.webp",
+      "src3": ""
+    },
+    "category": "lighting",
+    "sale": true,
+    "new": false,
+    "bestsellers": false
+  },
+  {
+    "title": "URSHULT",
+    "price": 30.00,
+    "sku": "003",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/lighting/URSHULT1.webp",
+      "src2": "src/img/products/lighting/URSHULT2.webp",
+      "src3": ""
+    },
+    "category": "lighting",
+    "sale": true,
+    "new": false,
+    "bestsellers": false
+  },
+  {
+    "title": "TIPHEDE",
+    "price": 80.00,
+    "sku": "004",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/rugs/TIPHEDE1.webp",
+      "src2": "src/img/products/rugs/TIPHEDE2.webp"
+    },
+    "category": "rugs",
+    "sale": true,
+    "new": false,
+    "bestsellers": false
+  },
+  {
+    "title": "ÖVERSIDAN",
+    "price": 73.00,
+    "sku": "005",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/lighting/ÖVERSIDAN1.webp",
+      "src2": "src/img/products/lighting/ÖVERSIDAN2.webp",
+      "src3": ""
+    },
+    "category": "lighting",
+    "sale": false,
+    "new": true,
+    "bestsellers": false
+  },
+  {
+    "title": "FRÖSLÖV",
+    "price": 55.00,
+    "sku": "006",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/furniture/FRÖSLÖV1.webp",
+      "src2": "src/img/products/furniture/FRÖSLÖV2.webp"
+    },
+    "category": "furniture",
+    "sale": false,
+    "new": true,
+    "bestsellers": false
+  },
+  {
+    "title": "LANGSTED",
+    "price": 45.00,
+    "sku": "007",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/rugs/LANGSTED1.webp",
+      "src2": "src/img/products/rugs/LANGSTED2.webp"
+    },
+    "category": "rugs",
+    "sale": false,
+    "new": true,
+    "bestsellers": false
+  },
+  {
+    "title": "VONSBÄK",
+    "price": 89.00,
+    "sku": "008",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/rugs/VONSBÄK1.webp",
+      "src2": "src/img/products/rugs/VONSBÄK2.webp",
+      "src3": ""
+    },
+    "category": "rugs",
+    "sale": false,
+    "new": true,
+    "bestsellers": false
+  },
+  {
+    "title": "LANDSKRONA",
+    "price": 83.00,
+    "sku": "009",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/furniture/LANDSKRONA1.webp",
+      "src2": "src/img/products/furniture/LANDSKRONA2.webp"
+    },
+    "category": "furniture",
+    "sale": false,
+    "new": false,
+    "bestsellers": true
+  },
+  {
+    "title": "ANGERSBY",
+    "price": 51.00,
+    "sku": "010",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/furniture/ANGERSBY1.webp",
+      "src2": "src/img/products/furniture/ANGERSBY2.webp"
+    },
+    "category": "furniture",
+    "sale": false,
+    "new": false,
+    "bestsellers": true
+  },
+  {
+    "title": "YTBERG",
+    "price": 19.00,
+    "sku": "011",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/lighting/YTBERG1.webp",
+      "src2": "src/img/products/lighting/YTBERG2.webp"
+    },
+    "category": "lighting",
+    "sale": false,
+    "new": false,
+    "bestsellers": true
+  },
+  {
+    "title": "TIPOIN",
+    "price": 89.00,
+    "sku": "012",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/rugs/TIPOIN1.webp",
+      "src2": "src/img/products/rugs/TIPOIN2.webp"
+    },
+    "category": "rugs",
+    "sale": false,
+    "new": false,
+    "bestsellers": true
+  },
+  {
+    "title": "ONSEVIG",
+    "price": 22.00,
+    "sku": "013",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/rugs/ONSEVIG1.webp",
+      "src2": "src/img/products/rugs/ONSEVIG2.webp"
+    },
+    "category": "rugs",
+    "sale": false,
+    "new": false,
+    "bestsellers": false
+  },
+  {
+    "title": "STOENSE",
+    "price": 55.00,
+    "sku": "014",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/rugs/STOENSE1.webp",
+      "src2": "src/img/products/rugs/STOENSE2.webp"
+    },
+    "category": "rugs",
+    "sale": false,
+    "new": false,
+    "bestsellers": false
+  },
+  {
+    "title": "ÅRSTID",
+    "price": 95.00,
+    "sku": "015",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/lighting/ÅRSTID1.webp",
+      "src2": "src/img/products/lighting/ÅRSTID2.webp",
+      "src3": ""
+    },
+    "category": "lighting",
+    "sale": false,
+    "new": false,
+    "bestsellers": false
+  },
+  {
+    "title": "STORJORM",
+    "price": 78.00,
+    "sku": "016",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/lighting/STORJORM1.webp",
+      "src2": "src/img/products/lighting/STORJORM2.webp",
+      "src3": ""
+    },
+    "category": "lighting",
+    "sale": false,
+    "new": false,
+    "bestsellers": false
+  },
+  {
+    "title": "SÖDERHAMN",
+    "price": 35.00,
+    "sku": "017",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/furniture/SÖDERHAMN1.webp",
+      "src2": "src/img/products/furniture/SÖDERHAMN2.webp"
+    },
+    "category": "furniture",
+    "sale": false,
+    "new": false,
+    "bestsellers": false
+  },
+  {
+    "title": "SMEDSTORP",
+    "price": 63.00,
+    "sku": "018",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus. Maecenas pellentesque in dolor sit amet euismod. Nam at accumsan quam. Etiam sagittis neque justo, a facilisis nibh aliquet eu. Phasellus posuere, augue eu tincidunt elementum, nisi tellus aliquet metus, ut malesuada mi libero non nibh. Pellentesque eget consectetur urna.",
+    "images": {
+      "src1": "src/img/products/furniture/SMEDSTORP1.webp",
+      "src2": "src/img/products/furniture/SMEDSTORP2.webp"
+    },
+    "category": "furniture",
+    "sale": false,
+    "new": false,
+    "bestsellers": false
+  }
+]

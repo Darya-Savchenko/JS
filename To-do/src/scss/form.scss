@@ -1,0 +1,30 @@
+.form{
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  .editList{
+    color: $font;
+    background-color: $background;
+    width: 300px;
+    font-size: 16px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid $font;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .button__editList{
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 9px 15px 6px ;
+    border: 1px solid $font;
+    border-radius: 5px;
+    background-color: $background;
+    transition-duration: 0.4s;
+    color: $font;
+    &:hover {
+      color: $background;
+      background-color: $font;
+      transition-duration: 0.4s;
+    }
+  }
+}

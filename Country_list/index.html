@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/lightStyle.css" id="mode">
+    <title>Task_2_7</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="wrapper">
+      <header class="header">
+        <h1 class="title">Where in the world?</h1>
+        <button class="button__mode">Dark Mode</button>
+      </header>
+      <main class="main">
+        <form action="#" method="post" enctype="multipart/form-data" class="form">
+          <div class="form__container">
+            <div class="searchCountry__container">
+              <input type="text" name="country" class="searchCountry"
+                     placeholder="  Search for a country..." value="">
+              <input type="submit" class="searchCountry__button" value="Search">
+            </div>
+            <div class="searchRegion__container">
+              <select name="searchRegion" id="searchRegion" class="searchRegion">
+                <option value="Filter by region" selected>Filter by region</option>
+                <option value="Americas" class="Australia">Americas</option>
+                <option value="Asia" class="Asia">Asia</option>
+                <option value="Africa" class="Africa">Africa</option>
+                <option value="Europe" class="Europe">Europe</option>
+                <option value="Oceania" class="Oceania">Oceania</option>
+              </select>
+            </div>
+          </div>
+        </form>
+        <div class="countries__container">
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/ts/main.ts"></script>
+  </body>
+</html>
